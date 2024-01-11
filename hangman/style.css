@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #gameDiv {
+    margin-top: 20px;
+  }
+  
+  #wordDiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .letter-box {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  #incorrect {
+    margin-top: 20px;
+  }
+  
+  #heartsDiv {
+    margin-top: 20px;
+  }
+  
+  .heart {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    color: red;
+    display: inline-block;
+  }
+  
